@@ -1,0 +1,101 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.gradient{
+    background: rgb(0,97,242);
+background: linear-gradient(135deg, rgba(0,97,242,1) 2%, rgba(105,0,199,1) 100%);
+margin: 0;
+}
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color:white;
+}
+.feature{
+    color:white;
+
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none;   
+}
+.feature ul li{
+    padding-left: 2rem;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom:1rem ;
+}
+.icon{
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size:1.75rem ; 
+    border-radius:100% ;  
+    display: inline-flex;
+     align-items: center;
+     justify-content: center;
+}
+.gallery{
+    background-color: whitesmoke;
+}
+.gallery img{
+    border-radius: 5%;
+
+}
+.services{
+    color:white;
+
+}
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .para > use{
+      animation: move-forever 25s cubic-bezier(.55,.5,.45,.5) infinite;
+  }
+  .para > use:nth-child(1){
+      animation-delay: -2s;
+      animation-duration: 7s;
+  }
+  .para > use:nth-child(2){
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.para > use:nth-child(3){
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.para > use:nth-child(4){
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever{
+    0%{
+        transform: translate3d(-90px,0,0);
+    }
+    0%{
+        transform: translate3d(85px,0,0);
+    }
+}
+
+.waves{
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    min-height: 150px;
+}
